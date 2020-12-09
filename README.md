@@ -5,7 +5,7 @@ The game is written on Ruby version 2.7.1. To play it you need to install the ge
 To start the game, you need to do the following:
 1. Download the archive with the program, unpack it, go to the folder hangman-master
 2. In the console terminal, enter `bundle install` and wait until the installation of the required libraries is completed.
-3. Start the game by typing `ruby main.rb`  
+3. Start the game by typing `bundle exec ruby main.rb`  
 
 [![asciicast](https://asciinema.org/a/378242.svg)](https://asciinema.org/a/378242)
 
