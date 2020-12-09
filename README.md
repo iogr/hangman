@@ -7,7 +7,7 @@ To start the game, you need to do the following:
 2. In the console terminal, enter `bundle install` and wait until the installation of the required libraries is completed.
 3. Start the game by typing `ruby main.rb`  
 
-[![asciicast](https://asciinema.org/a/22P93IVIjvedgi1bYg7sSDUHF.svg)](https://asciinema.org/a/22P93IVIjvedgi1bYg7sSDUHF)
+[![asciicast](https://asciinema.org/a/378242.svg)](https://asciinema.org/a/378242)
 
 ## Game rules
 The game rules is described on [Wikipedia](https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%81%D0%B5%D0%BB%D0%B8%D1%86%D0%B0_(%D0%B8%D0%B3%D1%80%D0%B0)) 
