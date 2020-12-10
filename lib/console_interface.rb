@@ -1,7 +1,7 @@
 class ConsoleInterface
   FIGURES =
-      Dir["#{__dir__}/../data/figures/*.txt"].sort
-          .map { |file_name| File.read(file_name) }
+    Dir["#{__dir__}/../data/figures/*.txt"].sort
+      .map { |file_name| File.read(file_name) }
 
   def initialize(game)
     @game = game
@@ -47,13 +47,13 @@ class ConsoleInterface
 
   def word_to_show
     result =
-        @game.letters_to_quess.map do |letter|
-          if letter.nil?
-            '__'
-          else
-            letter
-          end
+      @game.letters_to_quess.map do |letter|
+        if letter.nil?
+          '__'
+        else
+          letter
         end
+      end
     result.join(' ')
   end
 end
